@@ -1,0 +1,170 @@
+*,
+*:after,
+*:before {
+box-sizing: border-box;
+margin: 0;
+font-family: 'open sans', sans-serif;
+}
+
+body {
+background: #d0d8dc ;
+
+}
+
+.div-1 {
+  background-color: #455a64 ;
+  color: #ffffff ;
+  display: inline-block;
+  left: 0;
+  width: 54%;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.header {
+  margin-top: 178px;
+  font-size: 96px;
+  margin-bottom: 20px;
+}
+
+.website-input {
+  width: 84%;
+  height: 60px;
+  margin-top: 50px;
+  font-size: 36px; 
+}
+
+.enter-button {
+  background-color: #ffc107 ;
+  color: #ffffff ;
+  width: 84%;
+  height: 36px;
+  font-size: 15px;
+  margin-top: 50px;
+  height: 62px;
+  font-size: 33px;
+}
+
+.enter-button:hover {
+background-color: #ffd773 ;
+cursor: pointer;
+}
+
+.enter-button:disabled {
+background-color: #d0d2d3 ;
+cursor: none;  
+}
+
+.div-2 {
+background-color: #cfd8dc ;
+display: inline-block;
+right: 0;
+height: 100vh;
+width: 45%;
+margin:0;
+vertical-align: top;
+
+}
+
+.bookmark {
+background-color: #ffffff;
+border-style: solid;
+border-color: #607d8b ;
+border-width: 3px;
+margin: 20px 20px 20px 25px;
+width: 94%;
+height: 185px;
+padding: 10px 20px 10px 20px;
+}
+
+.bookmark-title {
+color: #455a64 ;
+padding-bottom: 5px;
+font-size: 36px;
+font-weight: 400;
+}
+
+.website-link {
+color: #607d8b ;
+padding-top: 20px;
+padding-bottom: 10px;
+font-size: 25px;
+}
+
+.bookmark-buttons {
+color: #455a64 ;
+padding-top: 5px;
+border: none;
+text-decoration: underline;
+font-size: 15px;
+background: none;
+}
+
+.bookmark-buttons:selected{
+  outline: 0 !important;
+}
+
+#delete {
+float: right;
+}
+
+.hover:hover {
+color: #455a64 ;
+}
+
+.logo {
+height: 125px;
+width: 125px;
+padding-top: 45px;
+display: inline-block;
+}
+
+.hr-1 {
+margin-bottom: 15px;
+}
+
+.hr-2 {
+margin-top: 25px;
+}
+
+.red {
+color: #f05828 ;
+}
+
+.background {
+  background-color: #f2f4f4 ;
+}
+
+
+@media(max-width: 1000px){
+.div-1 {
+  width: 100%;
+
+}
+
+.div-2 {
+  width: 100%;
+}
+}
+
+@media(max-width: 700px){
+/*.div-1 {
+   height: 330px;
+}*/
+
+.input-form {
+   background-color: #455a64;
+} 
+.header {
+   margin-top: -4px;
+   font-size: 54px;
+   margin-bottom: -3px
+}
+.logo {
+   height: 90px;
+   width: 90px;
+   padding-top: 45px;
+   display: inline-block
+}
+}
