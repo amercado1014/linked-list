@@ -7,11 +7,11 @@ font-family: 'open sans', sans-serif;
 }
 
 body {
-background: #d0d8dc ;
+background: #d0d8dc;
 
 }
 
-.div-1 {
+.left-side {
   background-color: #455a64 ;
   color: #ffffff ;
   display: inline-block;
@@ -23,8 +23,8 @@ background: #d0d8dc ;
 }
 
 .header {
-  margin-top: 178px;
-  font-size: 96px;
+  margin-top: 41px;
+  font-size: 70px;
   margin-bottom: 20px;
 }
 
@@ -35,7 +35,8 @@ background: #d0d8dc ;
   font-size: 36px; 
 }
 
-.enter-button {
+.enter-button,
+.clear-read {
   background-color: #ffc107 ;
   color: #ffffff ;
   width: 84%;
@@ -46,17 +47,23 @@ background: #d0d8dc ;
   font-size: 33px;
 }
 
-.enter-button:hover {
+.clear-read {
+   font-size: 10
+}
+
+.enter-button:hover,
+.clear-read:hover {
 background-color: #ffd773 ;
 cursor: pointer;
 }
 
-.enter-button:disabled {
+.enter-button:disabled,
+.clear-read:disabled {
 background-color: #d0d2d3 ;
 cursor: none;  
 }
 
-.div-2 {
+.right-side {
 background-color: #cfd8dc ;
 display: inline-block;
 right: 0;
@@ -64,7 +71,7 @@ height: 100vh;
 width: 45%;
 margin:0;
 vertical-align: top;
-
+overflow-y: auto;
 }
 
 .bookmark {
@@ -101,8 +108,8 @@ font-size: 15px;
 background: none;
 }
 
-.bookmark-buttons:selected{
-  outline: 0 !important;
+.bookmark-buttons:focus {
+  outline: 0;
 }
 
 #delete {
@@ -110,7 +117,9 @@ float: right;
 }
 
 .hover:hover {
-color: #455a64 ;
+color: #455a64;
+text-decoration: underline #ffc107;
+
 }
 
 .logo {
@@ -138,12 +147,12 @@ color: #f05828 ;
 
 
 @media(max-width: 1000px){
-.div-1 {
+.left-side {
   width: 100%;
 
 }
 
-.div-2 {
+.right-side {
   width: 100%;
 }
 }
@@ -151,11 +160,11 @@ color: #f05828 ;
 @media(max-width: 700px){
 /*.div-1 {
    height: 330px;
-}*/
+}
 
 .input-form {
    background-color: #455a64;
-} 
+} */
 .header {
    margin-top: -4px;
    font-size: 54px;
