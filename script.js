@@ -41,7 +41,7 @@ function createBookmark () {
    `<article class="bookmark" id="bookmark">
      <h2 class="bookmark-title" id="bookmark-title">${newTitle} </h2>
      <hr class="hr-1">
-     <a class="website-link hover" id="website-link" href=${newLink} target="_blank">${newLink}</a>
+     <p><a class="website-link hover" id="website-link" href=${newLink} target="_blank">${newLink}</a></p>
      <hr class="hr-2">
      <input class="bookmark-buttons hover" id="read" type="submit" name="read" value="Read">
      <input class="bookmark-buttons hover" id="delete" type="submit" name="delete" value="Delete">
